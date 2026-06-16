@@ -1,5 +1,5 @@
 {
-  "name": "AFK Bot",
+  "name": "AFK Bot"
   "bot-account": {
     "username": "NIGGER",
     "password": "",
@@ -11,22 +11,22 @@
     "version": "",
     "try-creative": false
   },
-  "position": {
+  "position": {0,0,0,
     "enabled": true,
     "x": 0,
     "y": 100,
     "z": 0
   },
-  "utils": {
+  "utils": {false
     "auto-auth": {
       "enabled": true,
       "password": "chalol78"
     },
-    "anti-afk": {
+    "anti-afk": {true
       "enabled": true,
       "sneak": true
     },
-    "chat-messages": {
+    "chat-messages": {true
       "enabled": true,
       "repeat": true,
       "repeat-delay": 120,
@@ -39,47 +39,47 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
-  "movement": {
+  "movement": {false
     "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
-    "look-around": {
+    "look-around": {true
       "enabled": true,
       "interval": 5000
     },
-    "random-jump": {
+    "random-jump": {true
       "enabled": true,
       "interval": 10000
     }
   },
-  "modules": {
+  "modules": {true
     "avoidMobs": true,
     "combat": true,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
-  "combat": {
+  "combat": {false
     "attack-mobs": false,
     "auto-eat": true
   },
-  "beds": {
+  "beds": {true
     "pick-up-day": false,
     "place-night": false
   },
-  "discord": {
+  "discord": {false
     "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
+    "events": {false
       "connect": true,
       "disconnect": true,
       "chat": false
     }
   },
-  "chat": {
+  "chat": {true
     "respond": true
   }
 }
