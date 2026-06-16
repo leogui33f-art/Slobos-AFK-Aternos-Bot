@@ -14,19 +14,19 @@
   "position": {0,0,0,
     "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 0,
     "z": 0
   },
-  "utils": {false,
+  "utils": {
     "auto-auth": {
       "enabled": true,
       "password": "chalol78"
     },
-    "anti-afk": {true,
+    "anti-afk": {
       "enabled": true,
       "sneak": true
     },
-    "chat-messages": {true,
+    "chat-messages": {
       "enabled": true,
       "repeat": true,
       "repeat-delay": 120,
@@ -34,52 +34,52 @@
         "sono il bot e sono gay"
       ]
     },
-    "chat-log": true,
+    "chat-log": 
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
-  "movement": {false,
+  "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
-    "look-around": {true,
+    "look-around": {
       "enabled": true,
       "interval": 5000
     },
-    "random-jump": {true,
+    "random-jump": {
       "enabled": true,
       "interval": 10000
     }
   },
-  "modules": {true,
+  "modules": {
     "avoidMobs": true,
     "combat": true,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
-  "combat": {false,
+  "combat": {
     "attack-mobs": false,
     "auto-eat": true
   },
-  "beds": {true,
+  "beds": {
     "pick-up-day": false,
     "place-night": false
   },
-  "discord": {false,
+  "discord": {
     "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {false,
+    "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat":
     }
   },
-  "chat": {true,
+  "chat": {
     "respond": true
   }
 }
